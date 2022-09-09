@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -24,7 +28,9 @@
         <nav class="nav">
           <ul class="menu">
             <li><a href="./index.html" class="menu__link">Студія</a></li>
-            <li><a href="./portfolio.html" class="menu__link">Портфоліо</a></li>
+            <li>
+              <a href="./portfolio.html" class="menu__link active">Портфоліо</a>
+            </li>
             <li><a href="#" class="menu__link">Контакти</a></li>
           </ul>
         </nav>
@@ -46,10 +52,10 @@
     <!-- контент страницы -->
     <main>
       <div class="container">
-        <section class="portfolio">
+        <section class="portfolio section">
           <h1 class="vissually__hidden">Портфоліо робіт</h1>
 
-          <ul class="potfolio__filter-btn">
+          <ul class="portfolio__filter-btn">
             <li>
               <button class="btn__portfolio-link" type="button">Усі</button>
             </li>
