@@ -1,8 +1,9 @@
 :root {
   --primary-color: #2196f3;
-  --baner-color: #2f303a;
+  --banner-color: #2f303a;
   --background-text-color: #ffffff;
   --background-cards-color: #f5f4fa;
+  --sub-txt-color: #757575;
 }
 
 body {
@@ -19,7 +20,6 @@ h6,
 p {
   margin: 0;
 }
-
 ul,
 ol {
   list-style: none;
@@ -105,6 +105,7 @@ img {
 
 .menu__link {
   color: inherit;
+  
 }
 
 .menu__link:hover,
@@ -116,7 +117,8 @@ img {
 }
 
 .contacts__link {
-  color: #757575;
+  color: var(--sub-txt-color);
+  
 }
 
 .contacts__link:hover,
@@ -126,7 +128,7 @@ img {
 
 /* Hero */
 .background {
-  background-color: var(--baner-color);
+  background-color: var(--banner-color);
   padding: 200px 0;
 }
 
@@ -172,7 +174,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--sub-txt-color);
 }
 
 .prof__title {
@@ -232,11 +234,11 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--sub-txt-color);
 }
 
 .footer {
-  background-color: var(--baner-color);
+  background-color: var(--banner-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -334,7 +336,7 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sub-txt-color);
 }
 
 .portfolio__cards-link {
